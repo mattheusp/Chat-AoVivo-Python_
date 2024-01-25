@@ -1,0 +1,76 @@
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 15px; /* Aumentei o espaço entre os botões para 15px */
+}
+
+.join {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.create-btn {
+  width: 100%;
+  font-size: 16px; /* Aumentei o tamanho do texto do botão para 16px */
+}
+
+.message-box {
+  border-color: #3498db; /* Cor da borda azul */
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 10px;
+  background-color: #ecf0f1; /* Cor de fundo cinza claro */
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  width: 80vw;
+  align-items: stretch;
+}
+
+.messages {
+  overflow-y: scroll;
+  flex: 1;
+  width: 100%;
+}
+
+.inputs {
+  padding: 10px;
+  display: flex;
+}
+
+h2 {
+  text-align: center;
+  color: #3498db; /* Cor do texto azul */
+  font-size: 24px; /* Aumentei o tamanho da fonte para 24px */
+}
+
+#message {
+  flex: 1;
+}
+
+.text {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.muted {
+  font-size: 12px; /* Aumentei o tamanho da fonte para 12px */
+  color: #7f8c8d; /* Cor do texto cinza */
+}
